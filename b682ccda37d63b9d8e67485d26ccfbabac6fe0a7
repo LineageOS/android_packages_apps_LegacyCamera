@@ -16,6 +16,24 @@
       "revId": "b682ccda37d63b9d8e67485d26ccfbabac6fe0a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAaH///7o\u003d",
+        "filename": "jni/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2012-10-16T18:01:02Z",
+      "side": 1,
+      "message": "Yeah, you\u0027re right. I\u0027m gonna make that as a separate commit that is dependant on this one since I\u0027ll be the author on that",
+      "parentUuid": "AAAAY3//9P8\u003d",
+      "revId": "b682ccda37d63b9d8e67485d26ccfbabac6fe0a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
