@@ -113,7 +113,6 @@ bool YVURenderer::DrawTexture()
 
         checkGlError("glDrawElements");
 
-        glFlush();
         glBindFramebuffer(GL_FRAMEBUFFER, 0);
         succeeded = true;
     } while (false);
@@ -138,7 +137,6 @@ const char* YVURenderer::VertexShaderSource() const
 
 const char* YVURenderer::FragmentShaderSource() const
 {
-#ifndef CPU_COLOR_CONVERT
     static const char gFragmentShader[] =
         "precision mediump float;\n"
         "uniform sampler2D s_texture;\n"
@@ -157,14 +155,6 @@ const char* YVURenderer::FragmentShaderSource() const
         "  p = texture2D(s_texture, v_texCoord);\n"
         "  gl_FragColor[3] = dot(p, coeff_y);\n"
         "}\n";
-#else
-    static const char gFragmentShader[] =
-        "precision mediump float;\n"
-        "uniform sampler2D s_texture;\n"
-        "varying vec2 v_texCoord;\n"
-        "void main() {\n"
-        "  gl_FragColor = texture2D(s_texture, v_texCoord);\n"
-        "}\n";
-#endif
+
     return gFragmentShader;
 }
