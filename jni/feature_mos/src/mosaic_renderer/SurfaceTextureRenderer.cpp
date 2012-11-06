@@ -29,7 +29,9 @@ const GLfloat g_vVertices[] = {
 };
 GLushort g_iIndices2[] = { 0, 1, 2, 3 };
 
+
 const int GL_TEXTURE_EXTERNAL_OES_ENUM = 0x8D65;
+
 
 const int VERTEX_STRIDE = 6 * sizeof(GLfloat);
 
