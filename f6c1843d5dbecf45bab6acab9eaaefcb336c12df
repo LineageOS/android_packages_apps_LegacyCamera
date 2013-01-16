@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//8tY\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 5248
+      },
+      "writtenOn": "2013-01-16T06:16:57Z",
+      "side": 1,
+      "message": "I have no idea which size limit... File size limit? SD Card limit? And the English source isn\u0027t more explicit, the comment in the English strings doesn\u0027t help either.",
+      "revId": "f6c1843d5dbecf45bab6acab9eaaefcb336c12df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
