@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.camera.panorama;
+package com.android.camera;
 
 /**
  * The Java interface to JNI calls regarding mosaic preview rendering.
@@ -24,7 +24,7 @@ public class MosaicRenderer
 {
      static
      {
-         System.loadLibrary("jni_mosaic");
+         System.loadLibrary("jni_legacymosaic");
      }
 
      /**

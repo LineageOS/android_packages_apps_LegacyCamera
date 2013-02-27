@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.camera.panorama;
+package com.android.camera;
 
 import com.android.camera.ActivityBase;
 import com.android.camera.CameraDisabledException;
@@ -465,7 +465,7 @@ public class PanoramaActivity extends ActivityBase implements
                 // means users exit and come back to panorama. Do not start the
                 // preview. Preview will be started after final mosaic is
                 // generated.
-                if (!mPausing && !mThreadRunning) {
+                if (!mPausing) {
                     startCameraPreview();
                 }
             }
@@ -933,7 +933,11 @@ public class PanoramaActivity extends ActivityBase implements
 
     private void resetToPreview() {
         reset();
-        if (!mPausing) startCameraPreview();
+        if (!mPausing) {
+            mMosaicView.onPause();
+            mMosaicView.onResume();
+            startCameraPreview();
+        }
     }
 
     private void showFinalMosaic(Bitmap bitmap) {
@@ -1164,3 +1168,4 @@ public class PanoramaActivity extends ActivityBase implements
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 }
+
