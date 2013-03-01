@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "AAAAdX//57o\u003d",
+        "filename": "res/values-iw/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2013-03-01T01:38:52Z",
+      "side": 1,
+      "message": "The two above strings break the build. They should be removed too.",
+      "revId": "f6c1843d5dbecf45bab6acab9eaaefcb336c12df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//8tY\u003d",
         "filename": "res/values-iw/strings.xml",
         "patchSetId": 2
