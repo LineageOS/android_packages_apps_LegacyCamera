@@ -16,6 +16,24 @@
       "revId": "fef53e8264825d2009e5c31bdf5b70951cbfca88",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iNryegY",
+        "filename": "res/values-de/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-05-28T12:29:13Z",
+      "side": 1,
+      "message": "\u0027MP\u0027 habe ich von der originalen Übersetzung übernommen. Um es aber konsistent zu halten sollte man hier auch \u0027Megapixel\u0027 verwenden.\n\n\u0027(16:9)\u0027 anstatt \u0027(W)\u0027 finde ich auch eine sehr gute Idee ;)",
+      "parentUuid": "iBrpEhs",
+      "revId": "fef53e8264825d2009e5c31bdf5b70951cbfca88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
